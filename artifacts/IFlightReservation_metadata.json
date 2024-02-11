@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bookFlight",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AtomicTripReservation.sol": "IFlightReservation"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AtomicTripReservation.sol": {
+			"keccak256": "0x60d62a9003855a698ee9d147b7588170207b8752ebdd599af2e90090110f69fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ac2b51bb73453025a2b57c7e5100a3fb6b8c18f184f76742a23ea4f9506c724c",
+				"dweb:/ipfs/QmdmFMUmZUrPn9DuzcTWUhGxc3Z34W27PXbpkuEicvCVDt"
+			]
+		}
+	},
+	"version": 1
+}

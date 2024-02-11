@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "clientId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "val1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "val2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "val3",
+						"type": "uint256"
+					}
+				],
+				"name": "ReceiveCommitment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "commitments",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "value1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value3",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1.sol": "DataTrade"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1.sol": {
+			"keccak256": "0xcaa20807ca92e4437c288534eed8e9e71191e54fe090583d50e8ef79dbbb4b3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://803f7db036ecc8b3256230a3452f78bd7acf58c750035a8ae0411c935752b281",
+				"dweb:/ipfs/QmRa4khZ9khbY7oWq18KXLy9noTu9R7vwmpnk19pzMw8JZ"
+			]
+		}
+	},
+	"version": 1
+}

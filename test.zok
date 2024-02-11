@@ -1,0 +1,9 @@
+def main(private field[2] x) -> field {
+    field mut sum_squares = 0;
+    for u32 i in 0..2 {
+        sum_squares = sum_squares + x[i] * x[i];
+    }
+    
+
+    return sum_squares;
+}
