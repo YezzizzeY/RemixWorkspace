@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -608,11 +608,11 @@
 			]
 		},
 		"USTETH.sol": {
-			"keccak256": "0xd397a8a124cbd4644998bedd01ebc6971ef88ecb31fb1feb7adc1bc2cb7826f8",
+			"keccak256": "0xe51bccc4b2a79a8fc808562168de53edf98b7869a67069c17f1ef6574664a7b9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d21f6c5afd489981f569167d6aa24078f65aef3b167cc7c90e4fd01a2721428",
-				"dweb:/ipfs/QmNeHhcDuwpzyTawi981ZxT48KhwKr2pu8qko5jNNnwmdr"
+				"bzz-raw://90b4ff39d297dbbf816b3ea4a802f570d567fa13e4b9f6d792e14215e1c919ad",
+				"dweb:/ipfs/QmaFqKPYZKQPrSHTEQYWqNrVaUauJMZveyDY25JLZoFhQ8"
 			]
 		}
 	},

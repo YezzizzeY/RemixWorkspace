@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -19,7 +19,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"USTETH_flattened.sol": "Context"
+			"sBNB_flattened.sol": "Context"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"USTETH_flattened.sol": {
-			"keccak256": "0x059e1edd6d7b62fd22c6c80f3ad1a0584d341f84d181089f5c4fd76e3ac715f4",
+		"sBNB_flattened.sol": {
+			"keccak256": "0x2af6d220ed378d80ce34bd4ce3d773ea9836b51dfa92ffc1cb21b5bf53eaadab",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://6423fb46453be5fdb92fa409f53deabc32ab1d4689c9e2115890c667bff9fc02",
-				"dweb:/ipfs/QmbPaLT8rcKov9ycwoUdXyMxCGm9HRdhpnbFe8nBGdgFnQ"
+				"bzz-raw://071bec49eb68d11e966c152b2e10783052cb644ec9dcdca11a5dc47f5abaac9f",
+				"dweb:/ipfs/QmX4WAUKg5TffbNvyXTB8uTLkTjJ4J9TesbsCaXQWV35TP"
 			]
 		}
 	},

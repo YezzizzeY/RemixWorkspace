@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "token0Amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "token0Amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "token1Amount",
+						"type": "uint256"
+					}
+				],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "withdrawShares",
+						"type": "uint256"
+					}
+				],
+				"name": "removeLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "token0Amount",
+						"type": "uint256"
+					}
+				],
+				"name": "token0To1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "token1Amount",
+						"type": "uint256"
+					}
+				],
+				"name": "token1To0",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment3/interfaces/ISwap.sol": "ISwap"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment3/interfaces/ISwap.sol": {
+			"keccak256": "0xe9b0832b831b53b2de2446360831b16f84c149aa13b5edf76f8e7abb9c020c23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://10229b84356da17a26fcdc5dddf3fbec5177d236d338a0dd895a09f0148a20bf",
+				"dweb:/ipfs/QmUL9KX799k2PYH4aGe8pXQ1Q6QB3Dm2GTxbcHLpxec4xU"
+			]
+		}
+	},
+	"version": 1
+}
